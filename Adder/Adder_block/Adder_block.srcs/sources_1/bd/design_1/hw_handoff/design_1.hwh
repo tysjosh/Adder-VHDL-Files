@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Oct 14 03:23:44 2017" VIVADOVERSION="2017.2.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="design_1" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="carry" SIGIS="undef" SIGNAME="half_adder_2_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_2" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s0" SIGIS="undef" SIGNAME="half_adder_3_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_3" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s1" SIGIS="undef" SIGNAME="half_adder_1_sum">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_1" PORT="sum"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="External_Ports_a0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_3" PORT="a0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="External_Ports_b0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_3" PORT="b0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="External_Ports_a1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_0" PORT="a0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b1" SIGIS="undef" SIGNAME="External_Ports_b1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_0" PORT="b0"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/half_adder_0" HWVERSION="1.0" INSTANCE="half_adder_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="half_adder" VLNV="xilinx.com:module_ref:half_adder:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_half_adder_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="External_Ports_a1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="External_Ports_b1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="carry" SIGIS="undef" SIGNAME="half_adder_0_carry">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_2" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="half_adder_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_1" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/half_adder_1" HWVERSION="1.0" INSTANCE="half_adder_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="half_adder" VLNV="xilinx.com:module_ref:half_adder:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_half_adder_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="half_adder_0_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_0" PORT="sum"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="half_adder_3_carry">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_3" PORT="carry"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="carry" SIGIS="undef" SIGNAME="half_adder_1_carry">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_2" PORT="b0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="half_adder_1_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/half_adder_2" HWVERSION="1.0" INSTANCE="half_adder_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="half_adder" VLNV="xilinx.com:module_ref:half_adder:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_half_adder_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="half_adder_0_carry">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_0" PORT="carry"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="half_adder_1_carry">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_1" PORT="carry"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="carry" SIGIS="undef"/>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="half_adder_2_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="carry"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/half_adder_3" HWVERSION="1.0" INSTANCE="half_adder_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="half_adder" VLNV="xilinx.com:module_ref:half_adder:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_half_adder_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="External_Ports_a0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="External_Ports_b0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="carry" SIGIS="undef" SIGNAME="half_adder_3_carry">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_1" PORT="b0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sum" SIGIS="undef" SIGNAME="half_adder_3_sum">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

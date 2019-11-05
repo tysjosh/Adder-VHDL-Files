@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Adder_block.srcs/sources_1/new/half adder.vhd" \
+"../../../../Adder_block.ip_user_files/bd/design_1/ip/design_1_half_adder_0_0/sim/design_1_half_adder_0_0.vhd" \
+"../../../../Adder_block.ip_user_files/bd/design_1/ip/design_1_half_adder_1_0/sim/design_1_half_adder_1_0.vhd" \
+"../../../../Adder_block.ip_user_files/bd/design_1/ip/design_1_half_adder_2_0/sim/design_1_half_adder_2_0.vhd" \
+"../../../../Adder_block.ip_user_files/bd/design_1/ip/design_1_half_adder_3_0/sim/design_1_half_adder_3_0.vhd" \
+"../../../../Adder_block.srcs/sim_1/new/adder_block_simulation.vhd" \
+
+# Do not sort compile order
+nosort

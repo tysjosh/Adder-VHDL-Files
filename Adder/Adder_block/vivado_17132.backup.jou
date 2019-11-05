@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.2.1 (64-bit)
+# SW Build 1957588 on Wed Aug  9 16:32:24 MDT 2017
+# IP Build 1948039 on Wed Aug  9 18:19:28 MDT 2017
+# Start of session at: Wed Oct 18 17:57:10 2017
+# Process ID: 17132
+# Current directory: C:/Users/Tayo/Documents/Digital Design/Adder_block
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5988 C:\Users\Tayo\Documents\Digital Design\Adder_block\Adder_block.xpr
+# Log file: C:/Users/Tayo/Documents/Digital Design/Adder_block/vivado.log
+# Journal file: C:/Users/Tayo/Documents/Digital Design/Adder_block\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tayo/Documents/Digital Design/Adder_block/Adder_block.xpr}
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Tayo/Documents/Digital Design/Adder_block/Adder_block.srcs/sources_1/bd/design_1/design_1.bd}

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tayo/Documents/Digital Design/Adder/Adder.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity full_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tayo/Documents/Digital Design/Adder/Adder.srcs/sources_1/new/half_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity half_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tayo/Documents/Digital Design/Adder/Adder.srcs/sources_1/new/two_bit_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity two_bit_adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tayo/Documents/Digital Design/Adder/Adder.srcs/sim_1/new/two_bit_testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity two_bit_testbench

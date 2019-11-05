@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Dec 18 17:26:40 2017
+# Process ID: 8472
+# Current directory: C:/Users/Tayo/Desktop/Digital Design/Full_Adder/Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent89096 C:\Users\Tayo\Desktop\Digital Design\Full_Adder\Adder\Adder.xpr
+# Log file: C:/Users/Tayo/Desktop/Digital Design/Full_Adder/Adder/vivado.log
+# Journal file: C:/Users/Tayo/Desktop/Digital Design/Full_Adder/Adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tayo/Desktop/Digital Design/Full_Adder/Adder/Adder.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 741.344 ; gain = 51.789
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 18 17:33:00 2017...

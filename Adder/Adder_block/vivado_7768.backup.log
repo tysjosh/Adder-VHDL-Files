@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2017.2.1 (64-bit)
+# SW Build 1957588 on Wed Aug  9 16:32:24 MDT 2017
+# IP Build 1948039 on Wed Aug  9 18:19:28 MDT 2017
+# Start of session at: Wed Nov  1 07:03:10 2017
+# Process ID: 7768
+# Current directory: C:/Users/Tayo/Documents/Digital Design/Adder_block
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12336 C:\Users\Tayo\Documents\Digital Design\Adder_block\Adder_block.xpr
+# Log file: C:/Users/Tayo/Documents/Digital Design/Adder_block/vivado.log
+# Journal file: C:/Users/Tayo/Documents/Digital Design/Adder_block\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tayo/Documents/Digital Design/Adder_block/Adder_block.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 785.871 ; gain = 100.113
+update_compile_order -fileset sources_1
+archive_project {C:/Users/Tayo/Documents/Digital Design/Adder_block.xpr.zip} -temp_dir {C:/Users/Tayo/Documents/Digital Design/Adder_block/.Xil/Vivado-7768-Tayo-PC} -force -exclude_run_results
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Tayo/Documents/Digital Design/Adder_block/.Xil/Vivado-7768-Tayo-PC' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Tayo/Documents/Digital Design/Adder_block/.Xil/Vivado-7768-Tayo-PC/PrjAr/_X_'.
+WARNING: [IP_Flow 19-3571] IP 'design_1_half_adder_0_0' is restricted:
+* Module reference source file(s) not found.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-3571] IP 'design_1_half_adder_1_0' is restricted:
+* Module reference source file(s) not found.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-3571] IP 'design_1_half_adder_2_0' is restricted:
+* Module reference source file(s) not found.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-3571] IP 'design_1_half_adder_3_0' is restricted:
+* Module reference source file(s) not found.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-3571] IP 'design_1_half_adder_0_0' is restricted:
+* Module reference source file(s) not found.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-3571] IP 'design_1_half_adder_1_0' is restricted:
+* Module reference source file(s) not found.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-3571] IP 'design_1_half_adder_2_0' is restricted:
+* Module reference source file(s) not found.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-3571] IP 'design_1_half_adder_3_0' is restricted:
+* Module reference source file(s) not found.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_half_adder_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_half_adder_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_half_adder_1_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_half_adder_1_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_half_adder_2_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_half_adder_2_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_half_adder_3_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_half_adder_3_0_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_half_adder_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_half_adder_1_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_half_adder_2_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_half_adder_3_0_impl_1'...
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (C:/Users/Tayo/Documents/Digital Design/Adder_block.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 831.367 ; gain = 45.496
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  1 07:32:19 2017...

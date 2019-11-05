@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.2.1 (64-bit)
+# SW Build 1957588 on Wed Aug  9 16:32:24 MDT 2017
+# IP Build 1948039 on Wed Aug  9 18:19:28 MDT 2017
+# Start of session at: Wed Oct 18 15:59:17 2017
+# Process ID: 15108
+# Current directory: C:/Users/Tayo/Documents/Digital Design/Adder_block
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2420 C:\Users\Tayo\Documents\Digital Design\Adder_block\Adder_block.xpr
+# Log file: C:/Users/Tayo/Documents/Digital Design/Adder_block/vivado.log
+# Journal file: C:/Users/Tayo/Documents/Digital Design/Adder_block\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tayo/Documents/Digital Design/Adder_block/Adder_block.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Tayo/Desktop/Adder_block' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 857.906 ; gain = 153.023
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 18 16:40:32 2017...

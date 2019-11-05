@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Oct 17 16:26:37 2018
+# Process ID: 385116
+# Current directory: C:/Users/Tayo/Documents/Digital Design/Adder/Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent384064 C:\Users\Tayo\Documents\Digital Design\Adder\Adder\Adder.xpr
+# Log file: C:/Users/Tayo/Documents/Digital Design/Adder/Adder/vivado.log
+# Journal file: C:/Users/Tayo/Documents/Digital Design/Adder/Adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tayo/Documents/Digital Design/Adder/Adder/Adder.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/Tayo/Documents/Digital Design/Adder/Adder/two_bit_testbench_behav.wcfg}
+source two_bit_testbench.tcl
+close_sim

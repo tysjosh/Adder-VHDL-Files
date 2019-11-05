@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Oct  3 16:30:59 2018
+# Process ID: 20140
+# Current directory: C:/Users/Tayo/Documents/Digital Design/Adder/Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27152 C:\Users\Tayo\Documents\Digital Design\Adder\Adder\Adder.xpr
+# Log file: C:/Users/Tayo/Documents/Digital Design/Adder/Adder/vivado.log
+# Journal file: C:/Users/Tayo/Documents/Digital Design/Adder/Adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tayo/Documents/Digital Design/Adder/Adder/Adder.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/Tayo/Documents/Digital Design/Adder/Adder/two_bit_testbench_behav.wcfg}
+source two_bit_testbench.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+synth_design -rtl -name rtl_1
+place_ports A0 V10
+place_ports A1 V11
+place_ports B0 V12
+place_ports B1 H6
+close_sim
+close_design
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Tayo/Documents/Digital Design/Adder/Adder/Adder.runs/impl_1/two_bit_adder.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Tayo/Documents/Digital Design/Adder/Adder/Adder.runs/impl_1/two_bit_adder.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
